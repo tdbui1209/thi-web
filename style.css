@@ -1,0 +1,44 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header {
+	text-align: center;
+	font-weight: bold;
+}
+
+header > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer {
+	text-align: center;
+	margin-top: auto;
+	font-weight: bold;
+}
+
+footer > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	background-color: black;
+}
+
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: white;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+button > a {
+	color: white;
+	text-decoration: none;
+}
